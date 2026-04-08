@@ -1,0 +1,94 @@
+.competitor-card {
+  background: #0f1a2f;
+  border: 1px solid #22304e;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s;
+  box-shadow: none;
+}
+
+.competitor-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  transform: translateY(-4px);
+}
+
+.competitor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.competitor-kicker {
+  margin: 0 0 6px;
+  color: #7f92b8;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.competitor-header h3 {
+  margin: 0;
+  color: #e8efff;
+  font-size: 1.2rem;
+}
+
+.threat-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.competitor-section {
+  margin-bottom: 1rem;
+}
+
+.competitor-section h4 {
+  margin: 0.5rem 0;
+  color: #63dfca;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.competitor-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.competitor-section li {
+  padding: 0.4rem 0;
+  color: #b7c5e4;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.competitor-section li:before {
+  content: "→ ";
+  color: #26e0be;
+  margin-right: 0.5rem;
+}
+
+.competitor-section.weaknesses li:before {
+  content: "⚠️ ";
+}
+
+.website-link {
+  display: inline-block;
+  color: #2ee0c2;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  transition: color 0.3s;
+}
+
+.website-link:hover {
+  color: #9feee0;
+}
